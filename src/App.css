@@ -1,1 +1,16 @@
 /* add your styles here */
+img{
+    width: 40vw;
+    padding: 5vw;
+}
+
+h1, p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
